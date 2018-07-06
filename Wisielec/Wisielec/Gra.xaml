@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wisielec.Gra"
+			 Title="Wisielec - Gra"
+			 BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout Padding="20"
+                     x:Name="Zawartosc"
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+            <Label Text="Kategoria: X"
+				   VerticalOptions="Start"
+				   HorizontalOptions="CenterAndExpand"
+				   FontSize="28"
+				   TextColor="Gray"
+				   x:Name="KategoriaLbl"
+				   HorizontalTextAlignment="Center"/>
+            <Label Text="HASLO"
+				   VerticalOptions="Start"
+				   HorizontalOptions="CenterAndExpand"
+				   FontSize="36"
+				   TextColor="Gray"
+				   x:Name="HasloLbl"
+				   HorizontalTextAlignment="Center"/>
+			
+			<Image Source="s0.jpg" 
+				   VerticalOptions="Start"
+				   HorizontalOptions="CenterAndExpand"
+				   Margin="10"
+				   x:Name="SzubienicaImg"
+				   WidthRequest="337"
+				   HeightRequest="210"/>
+
+			<StackLayout VerticalOptions="StartAndExpand"
+						 HorizontalOptions="CenterAndExpand"
+						 x:Name="KlawiaturaWynikStcLay"/>
+			<!--<Grid Margin="10"
+				  HorizontalOptions="CenterAndExpand">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+				</Grid.RowDefinitions>
+				
+				<Button Text="A"
+						BackgroundColor="Gray"
+						Grid.Column="0"
+						Grid.Row="0" 
+						Clicked="KlikniecieLitery"/>
+			</Grid>-->
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>
